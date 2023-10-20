@@ -91,6 +91,7 @@ nav > div > a {
     border-radius: 20px;
     position: absolute;
     cursor: pointer;
+    box-shadow: 2px 2px 5px #00000055;
 }
 
 #site_1 {
@@ -100,6 +101,9 @@ nav > div > a {
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
+    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 172058.png);
+    background-size: cover;
+    background-position: center;
 }
 
 #site_2 {
@@ -108,6 +112,9 @@ nav > div > a {
     z-index: 3;
     top: 10px;
     right: 10px;
+    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png);
+    background-size: cover;
+    background-position: center top;
 }
 
 #site_3 {
@@ -116,6 +123,9 @@ nav > div > a {
     z-index: 3;
     right: 5px;
     bottom: 30px;
+    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png);
+    background-size: cover;
+    background-position: bottom;
 }
 
 #site_4 {
@@ -123,6 +133,9 @@ nav > div > a {
     height: 150px;
     z-index: 3;
     top: 30px;
+    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png);
+    background-size: cover;
+    background-position: bottom;
 }
 
 #site_5 {
@@ -131,6 +144,9 @@ nav > div > a {
     z-index: 2;
     background-color: #e8ba12;
     bottom: 20px;
+    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 171922.png);
+    background-size: cover;
+    background-position: center;
 }
 
 #site_6 {
