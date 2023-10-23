@@ -1,0 +1,15 @@
+@charset "ut-f8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto_2 {
+    width: 80vw;
+    margin: 20px 0px;
+    font-size: 1.3em;
+    font-weight: normal;
+    opacity: 0.9;
+}
