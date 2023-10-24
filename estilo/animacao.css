@@ -1,0 +1,13 @@
+@charset "ut-f8";
+
+@keyframes subir_aparecendo {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
