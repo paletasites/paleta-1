@@ -1,13 +1,73 @@
 @charset "ut-f8";
 
-@keyframes subir_aparecendo {
+@keyframes subir_site1 {
     from {
         opacity: 0;
-        transform: translateY(40px);
+        top: 60%;
     }
 
     to {
         opacity: 1;
-        transform: translateY(0);
+        top: 50%;
+    }
+}
+
+@keyframes deslisar_site2 {
+    from {
+        opacity: 0;
+        right: -30px;
+    }
+
+    to {
+        opacity: 1;
+        right: 10px;
+    }
+}
+
+@keyframes subir_site3 {
+    from {
+        opacity: 0;
+        bottom: 0px;
+    }
+
+    to {
+        opacity: 1;
+        bottom: 30px;
+    }
+}
+
+@keyframes decer_site4 {
+    from {
+        opacity: 0;
+        top: 0px;
+    }
+
+    to {
+        opacity: 1;
+        top: 30px;
+    }
+}
+
+@keyframes deslisar_site5 {
+    from {
+        opacity: 0;
+        left: -20px;
+    }
+
+    to {
+        opacity: 1;
+        left: 0px;
+    }
+}
+
+@keyframes aparecer_botao {
+    from {
+        opacity: 0;
+        margin-top: 30px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 10px;
     }
 }
