@@ -71,3 +71,47 @@
         margin-top: 10px;
     }
 }
+
+@keyframes aparecer_solido {
+    from {
+        opacity: 0px;
+        margin-left: -20px;
+    }
+
+    to {
+        opacity: 1;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+@keyframes sumir_solido {
+    to {
+        opacity: 0;
+        margin-right: -20px;
+    }
+}
+
+@keyframes amostra2 {
+    from {
+        opacity: 0;
+        left: 0;
+    }
+
+    to {
+        opacity: 1;
+        left: 19%;
+    }
+}
+
+@keyframes amostra3 {
+    from {
+        opacity: 0;
+        right: -25%;
+    }
+
+    to {
+        opacity: 1;
+        right: -5%;
+    }
+}
