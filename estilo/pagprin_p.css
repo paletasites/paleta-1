@@ -8,13 +8,13 @@ body , html {
 
 
 ::-webkit-scrollbar {
-    width: 10px;
-    background-color: #e8ba12;
+    width: 5px;
+    background-color: /*#e8ba12*/ transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    margin: 1px;
-    background-color: #32bedd;
+    background-color: #f8bb66;
+    border-radius: 40px;
 }
 
 /* header */
@@ -168,4 +168,121 @@ button {
 a{
     text-decoration: none;
     color: black;
+}
+
+.prova_social {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* background-color: rgb(18, 18, 18); */
+    width: 100%;
+    height: 80vh;
+    /* box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.457); */
+}
+
+.pessoa {
+    width: 90vw;
+    height: 160px;
+    background-color: rgb(252, 249, 239);
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.228);
+}
+
+.foto {
+    width: 50px;
+    height: 50px;
+    background-color: #e8ba12;
+    border-radius: 50%;
+    margin: 10px 0px 0px 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    font-style: normal;
+}
+
+.nome {
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+.desc {
+    width: 50%;
+    height: 45;
+    margin: 10px 0px 0px 40px;
+    font-size: 1.1em;
+}
+
+.site_pessoa {
+    width: 25%;
+    height: 90%;
+    background-color: rgb(49, 143, 225);
+    position: absolute;
+    top: 8px;
+    right: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.saber_mais {
+    margin-top: 20px;
+    opacity: 0.8;
+    margin-top: -15px;
+}
+
+.saber_mais > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.saber_mais:hover {
+    opacity: 0.9;
+}
+
+.saber_mais > a:hover {
+    text-decoration: underline;
+} 
+
+#foto1 {
+    background-color: #11c6ee;
+}
+
+#site_pessoa1 {
+    background: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 172049.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#foto2 {
+    background-color: rgb(241, 77, 48);
+}
+
+#site_pessoa2 {
+    background: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 171922.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#foto3 {
+    background-color: #ee9919;
+}
+
+#site_pessoa3 {
+    background: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }

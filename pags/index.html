@@ -10,63 +10,92 @@
     <link rel="stylesheet" href="../estilo/animacao.css">
 
 </head>
-<body>
+<body id="body">
     
-    <div class="top">
-        
-        
-        <div class="mostrar_nav"></div>
-        <nav>
-            <div class="contem_1">
-                <a href="sobre.html">sobre nos</a>
-                <a href="sites_ex.html">sites exemplos</a>
-                <a href="#" class="ultima">contato</a>
-            </div>
-        </nav>
-    </div>
-
+    <div class="top" id="topid"></div>
 
     <main>
 
-        <header>
-            <div class="contem_1">
-                <div class="img">
-                    <img src="../midia/img/logopaleta_preta.png" alt="logopaleta">
-                </div>
-            </div>
-        
-            <p class="frase">o melhor glow up pra a sua vida</p>
-        
-        </header>
-
-        <div id="primeira_impresao">
-
-            <div id="sites_ex">
-
-                <div id="site_1" class="site"></div>
-                <div id="site_2" class="site"></div>
-                <div id="site_3" class="site"></div>
-                <div id="site_4" class="site"></div>
-                <div id="site_5" class="site"></div>
-                <!-- <div id="site_6" class="site"></div> -->
-
-            </div>
-
-            <div id="informacao">
-
-                <div class="texto">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in, consequuntur laudantium explicabo unde distinctio iusto numquam, maiores vel, nisi earum alias! Iste ut, sint nobis assumenda impedit sunt sed.</p>
-                </div>
-
+        <section class="primeira_parte">
+            <header>
                 <div class="contem_1">
-                    <button><a href="#">ter meu site</a></button>
+                    <div class="img">
+                        <img src="../midia/img/logopaleta_preta.png" alt="logopaleta">
+                    </div>
                 </div>
-
+            
+                <p class="frase">o melhor glow up pra a sua empresa</p>
+            
+            </header>
+            <div id="primeira_impresao">
+            
+                <div id="sites_ex">
+                    <div id="site_1" class="site"></div>
+                    <div id="site_2" class="site"></div>
+                    <div id="site_3" class="site"></div>
+                    <div id="site_4" class="site"></div>
+                    <div id="site_5" class="site"></div>
+                    <!-- <div id="site_6" class="site"></div> -->
+                </div>
+                <div id="informacao">
+                    <div class="texto">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in, consequuntur laudantium explicabo unde distinctio iusto numquam, maiores vel, nisi earum alias! Iste ut, sint nobis assumenda impedit sunt sed.</p>
+                    </div>
+                    <div class="contem_1">
+                        <button><a href="#">ter meu site</a></button>
+                    </div>
+                </div>
             </div>
+        </section>
 
-        </div>
+        <section class="prova_social">
+            <div class="titulo_secao">
+                <h1>comentarios :</h1>
+            </div>
+            <div class="contem_1">
+                <div class="pessoa" id="pessoa_1">
+                    <div class="foto" id="foto1">P</div>
+                    <div class="nome">Pedro Augusto</div>
+                    <div class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus optio accusamus debitis neque ipsum enim</div>
+                    <a href="#">
+                        <div class="site_pessoa" id="site_pessoa1"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="contem_1">
+                <div class="pessoa" id="pessoa_2">
+                    <div class="foto" id="foto2">C</div>
+                    <div class="nome">Catia Lima</div>
+                    <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque magni eveniet officiis quae</div>
+                    <a href="#">
+                        <div class="site_pessoa" id="site_pessoa2"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="contem_1">
+                <div class="pessoa" id="pessoa_3">
+                    <div class="contem_1">
+                        <div>
+                            <div class="foto" id="foto3">M</div>
+                            <div class="nome">Marcelo</div>
+                            <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corporis aut nostrum rem, deleniti</div>
+                            <a href="#">
+                                <div class="site_pessoa" id="site_pessoa3"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="saber_mais , contem_1">
+                <a href="#">ver mais opinioens</a>
+            </div>
+        </section>
 
     </main>
 
+
+
+
+    <script src="../interacao/cabecario.js"></script>
 </body>
 </html>

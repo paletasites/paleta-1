@@ -1,112 +1,26 @@
 @charset "ut-f8";
 
-body {
-    overflow: hidden;
+.conteudo {
+    background-color: rgb(154, 190, 222);
+    width: 100%;
+    height: 90vh;
+    margin: auto;
 }
 
-.titulo {
-    width: 100%;
-    height: 100px;
+.contem_2 {
+    display: block;
+    margin: 0px 0px 0px 50px;
+    width: 30%;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px;
-    padding: 0px;
 }
 
-.titulo > h1 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 2em;
+.contem_2 > p{
     font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.8;
-}
-
-.contem_amostra {
-    width: 100%;
-    height: 60%;
-    position: relative;
-    z-index: -1;
-}
-
-.amostra {
-    width: 350px;
-    height: 500px;
-    background-color: coral;
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 172058.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
-    border-radius: 40px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
-    animation-name: subir_site1;
-    animation-duration: 1.3s;
-}
-
-.fundao{
-    position: absolute;
-    bottom: 0px;
-    z-index: -1;
-    width: 100%;
-    height: 200px;
-}
-
-.sites_amostra {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-#amostra1 {
-    position: absolute;
-    width: 140px;
-    height: 200px;
-    background-color: coral;
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 172058.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-    bottom: 70px;
-    left: 50%;
-    transform: translate(-50%);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.536) , -2px -2px 5px rgba(255, 255, 255, 0.291);
-}
-
-#amostra2 {
-    position: absolute;
-    width: 120px;
-    height: 160px;
-    background-color: darkgoldenrod;
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-    bottom: 40px;
-    left: 19%;
-    transform: translate(-50%);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.439);
-    animation-name: amostra2;
-    animation-duration: 3s;
-    cursor: pointer;
-}
-
-#amostra3 {
-    position: absolute;
-    width: 120px;
-    height: 160px;
-    background-color: darkgoldenrod;
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 171922.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-    bottom: 40px;
-    right: -5%;
-    transform: translate(-50%);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
-    animation-name: amostra3;
-    animation-duration: 3s;
-    cursor: pointer;
+    font-size: 4em;
+    font-weight: bold;
+    color: black;
+    line-height: 1.5em;
 }
