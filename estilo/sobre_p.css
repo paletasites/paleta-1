@@ -1,9 +1,50 @@
 @charset "ut-f8";
 
-.img {
-    margin: 20px 0px 20px 0px;
+.img_logo_nua {
+    width: 180px;
+    height: 180px;
+    margin: 60px 0px 80px 0px;
+    background-image: url("../midia/img/logo_redusida_nua_preta.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
 }
 
-.img > img{
-    height: 200px;
+.bolinha {
+    background-color: #ff006b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#bola_1 {
+    top: -50px;
+    left: 20px;
+    animation: entrar_bolinha_1 1s;
+}
+
+#bola_2 {
+    top: -40px;
+    right: 10px;
+    animation: entrar_bolinha_2 1s;
+}
+
+#bola_3 {
+    top: 45px;
+    right: -45px;
+    animation: entrar_bolinha_3 1s;
+}
+
+#bola_4 {
+    right: -40px;
+    bottom: 0px;
+    animation: entrar_bolinha_4 1s;
+}
+
+#bola_5 {
+    right: 40px;
+    bottom: -42px;
+    animation: entrar_bolinha_5 1s;
 }

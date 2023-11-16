@@ -115,3 +115,71 @@
         right: -5%;
     }
 }
+
+@keyframes entrar_bolinha_1 {
+    from {
+        left: -10px;
+        opacity: 0;
+    }
+
+    to {
+        left: 20px;
+        opacity: 1;
+    }
+}
+
+@keyframes entrar_bolinha_2 {
+    from{
+        top: -70px;
+        right: 40px;
+        opacity: 0;
+    }
+
+    to {
+        top: -40px;
+        right: 10px;
+        opacity: 1;
+    }
+}
+
+@keyframes entrar_bolinha_3 {
+    from{
+        top: 15px;
+        right: -15;
+        opacity: 0;
+    }
+
+    to {
+        top: 45px;
+        right: -45px;
+        opacity: 1;
+    }
+}
+
+@keyframes entrar_bolinha_4 {
+    from {
+        right: -70px;
+        bottom: 30px;
+        opacity: 0;
+    }
+
+    to {
+        right: -40px;
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes entrar_bolinha_5 {
+    from {
+        right: -40px;
+        bottom: -20px;
+        opacity: 0;
+    }
+
+    to {
+        right: 40px;
+        bottom: -42px;
+        opacity: 1;
+    }
+}
