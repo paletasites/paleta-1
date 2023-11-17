@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paleta</title>
     <link rel="shortcut icon" href="../midia/img/logo_redusida_branca.png" type="image/x-icon">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../estilo/pagprin_p.css">
-    <link rel="stylesheet" href="../estilo/principal.css">
     <link rel="stylesheet" href="../estilo/animacao.css">
+    <link rel="stylesheet" href="../estilo/principal.css">
 </head>
 <body id="body">
     
@@ -34,11 +36,10 @@
                     <div id="site_3" class="site"></div>
                     <div id="site_4" class="site"></div>
                     <div id="site_5" class="site"></div>
-                    <!-- <div id="site_6" class="site"></div> -->
                 </div>
                 <div id="informacao">
                     <div class="texto">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae in, consequuntur laudantium explicabo unde distinctio iusto numquam, maiores vel, nisi earum alias! Iste ut, sint nobis assumenda impedit sunt sed.</p>
+                        <p>Somos uma empresa onde buscamos o melhor para o seu negocio ,faremos de tudo para entregar o melhor site com a melhor experiencia do sua cliente.</p>
                     </div>
                     <div class="contem_1">
                         <button><a href="#">ter meu site</a></button>
@@ -53,7 +54,8 @@
                 <h1>nossos clientes</h1>
             </div>
             <div class="contem_1">
-                <div class="pessoa" id="pessoa_1">
+                <div class="pessoa" id="pessoa_1" data-aos="fade-right"
+                data-aos-duration="1300">
                     <div class="foto" id="foto1">P</div>
                     <div class="nome">Pedro Augusto</div>
                     <div class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus optio accusamus debitis neque ipsum enim</div>
@@ -63,7 +65,8 @@
                 </div>
             </div>
             <div class="contem_1">
-                <div class="pessoa" id="pessoa_2">
+                <div class="pessoa" id="pessoa_2" data-aos="fade-right"
+                data-aos-duration="1300">
                     <div class="foto" id="foto2">C</div>
                     <div class="nome">Catia Lima</div>
                     <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque magni eveniet officiis quae</div>
@@ -73,7 +76,8 @@
                 </div>
             </div>
             <div class="contem_1">
-                <div class="pessoa" id="pessoa_3">
+                <div class="pessoa" id="pessoa_3" data-aos="fade-right"
+                data-aos-duration="1300">
                     <div class="contem_1">
                         <div>
                             <div class="foto" id="foto3">M</div>
@@ -94,16 +98,21 @@
         <section id="outros_sites">
             <div class="contem_1">
                 <div class="vitrine">
-                    <div id="vit_01"></div>
-                    <div id="vit_02"></div>
-                    <div id="vit_03"></div>
+                    <div id="vits_01" class="vits_site"></div>
+                    <div id="vits_02" class="vits_site"></div>
+                    <div id="vits_03" class="vits_site"></div>
+                    <div class="contem_1">
+                        <a href="sites_ex.html" class="vits_link">dar uma olhada</a>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="sobre_resumido">
-            <div class="texto_03">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut nostrum sit, eveniet dolor, accusantium minus rem voluptatum blanditiis nemo aspernatur sapiente ullam dolores dolore, odio quidem maxime repudiandae porro quibusdam?</p>
+            <div class="texto_03 , contem_1">
+                <p data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="1000">Vamos fazer o seu cliente ter uma experiencia única em seu site,  onde ele nunca viu na vida dele, com animações, desenhos e agilidade. Faça a concorrência ter medo de você. Traga sua empresa para outro nível, um nível onde só tem graça.</p>
             </div>
         </section>
 
@@ -112,5 +121,8 @@
     <div id="bottomid" style="margin-top: 100px;"></div>
 
     <script src="../interacao/cape.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

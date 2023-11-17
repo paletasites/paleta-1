@@ -22,29 +22,29 @@
 #bola_1 {
     top: -50px;
     left: 20px;
-    animation: entrar_bolinha_1 1s;
+    animation: entrar_bolinha_1 0.5s;
 }
 
 #bola_2 {
     top: -40px;
     right: 10px;
-    animation: entrar_bolinha_2 1s;
+    animation: entrar_bolinha_2 0.5s;
 }
 
 #bola_3 {
     top: 45px;
     right: -45px;
-    animation: entrar_bolinha_3 1s;
+    animation: entrar_bolinha_3 0.5s;
 }
 
 #bola_4 {
     right: -40px;
     bottom: 0px;
-    animation: entrar_bolinha_4 1s;
+    animation: entrar_bolinha_4 0.5s;
 }
 
 #bola_5 {
     right: 40px;
     bottom: -42px;
-    animation: entrar_bolinha_5 1s;
+    animation: entrar_bolinha_5 0.5s;
 }
