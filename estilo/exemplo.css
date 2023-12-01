@@ -1,16 +1,22 @@
 @charset "ut-f8";
 
+html , body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .conteudo {
-    background-color: rgb(154, 190, 222);
     width: 100%;
     height: 80vh;
     margin: auto;
+    position: relative;
 }
 
 .contem_2 {
     display: block;
     margin: 50px 0px 0px 50px;
-    width: 60%;
+    width: 90%;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -22,4 +28,42 @@
     font-weight: bold;
     color: black;
     line-height: 1.5em;
+}
+
+.rolsi_sites {
+    width: 90vw;
+    height: 30vh;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.302);
+    position: absolute;
+    bottom: 10px;
+}
+
+.rolsi_img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.um {
+    bottom: 60px;
+    z-index: 2;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.371);
+}
+
+.um > div.rolsi_img {
+    background-image: url('../midia/img/Captura\ de\ tela\ 2023-10-20\ 172049.png');
+}
+
+.dois {
+    bottom: 0px;
+    width: 70vw;
+    opacity: 0.6;
+}
+
+.dois > div.rolsi_img {
+    background-image: url('../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png');
 }

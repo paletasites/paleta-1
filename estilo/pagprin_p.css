@@ -169,7 +169,8 @@ a{
     right: 70px;
     bottom: -40px;
     left: 70px;
-    background-image: linear-gradient(to bottom , #2390e9 , #0556e2);
+    /* background-image: linear-gradient(to bottom , #2390e9 , #0556e2); */
+    background-image: linear-gradient(to bottom , #ff006a , rgb(197, 1, 83));
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.32);
 }
