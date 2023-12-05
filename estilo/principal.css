@@ -30,6 +30,12 @@ html , body {
     align-items: center;
 }
 
+.contem_3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .ultima {
     border: none;
 }
