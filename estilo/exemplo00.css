@@ -1,0 +1,77 @@
+@charset "ut-f8";
+
+
+.conteudo {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.contem_2 {
+    display: block;
+    margin: 50px 0px 50px 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.contem_2 > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: black;
+    line-height: 1.5em;
+    opacity: 0.8;
+    margin-top: 80px;
+}
+
+.img_site {
+    width: 50vw;
+    height: 40vh;
+    background-color: orange;
+    display: inline-block;
+    margin: 0px 20px 100px 20px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.info {
+    display: inline-block;
+    width: 35%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 0px 10px 0px 0px;
+}
+
+.info > div > h1 {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.info > div > div > p {
+    opacity: 0.8;
+}
+
+#id02 , #id04{
+    float: left;
+    margin-left: 10px;
+}
+
+#img01 {
+    background-image: url('../midia/img/formulariop.png');
+}
+
+#img02 {
+    background-image: url('../midia/img/fundo_aple.png');
+}
+
+#img03 {
+    background-image: url('../midia/img/relogio01.png');
+}
+
+#img04 {
+    background-image: url('../midia/img/formulariog.png');
+}

@@ -32,15 +32,14 @@ body , html {
 
 .site {
     background-color: #32bedd;
-    margin: 10px;
     border-radius: 20px;
     position: absolute;
     box-shadow: 2px 2px 5px #00000055;
 }
 
 #site_1 {
-    width: 150px;
-    height: 200px;
+    width: 120px;
+    height: 190px;
     z-index: 3;
     top: 50%;
     left: 50%;
@@ -54,10 +53,10 @@ body , html {
 
 #site_2 {
     width: 200px;
-    height: 70px;
+    height: 60px;
     z-index: 3;
     top: 10px;
-    right: 10px;
+    right: -20px;
     background-image: url(../midia/img/fundo_aple.png);
     background-size: cover;
     background-position: center ;
@@ -69,7 +68,7 @@ body , html {
 }
 
 #site_3 {
-    width: 70px;
+    width: 60px;
     height: 200px;
     z-index: 3;
     right: 5px;
@@ -85,8 +84,8 @@ body , html {
 }
 
 #site_4 {
-    width: 100px;
-    height: 150px;
+    width: 90px;
+    height: 130px;
     z-index: 3;
     top: 30px;
     background-image: url(../midia/img/formulariop.png);
@@ -100,11 +99,11 @@ body , html {
 }
 
 #site_5 {
-    width: 180px;
-    height: 100px;
+    width: 160px;
+    height: 80px;
     z-index: 2;
     background-color: #e8ba12;
-    bottom: 20px;
+    bottom: 40px;
     background-image: url(../midia/img/relogio01.png);
     background-size: cover;
     background-position: center;
@@ -305,7 +304,7 @@ a{
     background-position: center top;
     position: absolute;
     top: 50%;
-    left: 50px;
+    left: 40px;
     transform: translate(0% , -50%);
 }
 
@@ -343,7 +342,7 @@ a{
     background-position: right;
     position: absolute;
     top: 50%;
-    right: 50px;
+    right: 40px;
     transform: translate(0% , -50%);
 }
 
@@ -370,7 +369,7 @@ a{
 }
 
 .texto_03 > p{
-    width: 70vw;
+    width: 80vw;
     font-size: 1.5em;
     text-align: center;
 }

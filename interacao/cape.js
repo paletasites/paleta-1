@@ -7,7 +7,7 @@ const cabecario = `
 <nav>
     <div class="contem_1">
         <a href="index.html">home</a>
-        <a href="sites_ex.html">sites exemplos</a>
+        <a href="sitesex.html">sites exemplos</a>
         <a href="sobre.html" class="ultima">sobre nos</a>
     </div>
 </nav>
