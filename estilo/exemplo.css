@@ -16,7 +16,7 @@ html , body {
 .contem_2 {
     display: block;
     margin: 50px 0px 0px 50px;
-    width: 90%;
+    width: 80%;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -24,25 +24,30 @@ html , body {
 
 .contem_2 > p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.4em;
-    font-weight: bold;
+    font-size: 1.3em;
     color: black;
     line-height: 1.5em;
+    opacity: 0.8;
+    margin-top: 80px;
 }
 
 .rolsi_sites {
-    width: 90vw;
-    height: 30vh;
+    width: 45vw;
+    height: 40vh;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.302);
     position: absolute;
     bottom: 10px;
+    left: 30px;
+    animation-name: entrar_site_ex_001;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
-.rolsi_img {
-    width: 100%;
-    height: 100%;
+.rolsi_img{
+    width: 45vw;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -54,16 +59,30 @@ html , body {
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.371);
 }
 
-.um > div.rolsi_img {
-    background-image: url('../midia/img/Captura\ de\ tela\ 2023-10-20\ 172049.png');
+/* informacao */
+
+.rolsi_titulo{
+    position: absolute;
+    opacity: 0;
+    top: 380px;
+    left: 290px;
+    font-size: 1.3em;
+    animation-name: deslisar_titulo;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
-.dois {
-    bottom: 0px;
-    width: 70vw;
-    opacity: 0.6;
-}
-
-.dois > div.rolsi_img {
-    background-image: url('../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png');
+.rolsi_desc {
+    width: 40vw;
+    position: absolute;
+    top: 420px;
+    left: 280px;
+    font-size: 1.3em;
+    opacity: 0.8;
+    opacity: 0;
+    animation-name: deslisar_desc;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
 }

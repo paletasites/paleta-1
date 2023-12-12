@@ -2,131 +2,153 @@
 // achar todos os elementos
 
 const rolagem = document.getElementById("rol")
-var o = 0.6
-var o2 = 1
+var quant = 0
+var cor_ind = 0
+var onde = 5
 
 // estrutura de cada um 
 
-const rolsis = [
+var rolsi = `
+<div class="rolsi_titulo" id="nome"><p>Cadastro</p></div>
+<div class="rolsi_desc" id="desc"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita placeat laudantium odit sint sapiente cumque ab magni, error earum eius quia culpa, quod magnam ipsa optio amet, facere nulla quidem?</p></div>
+<div class="rolsi_sites" id="rolsi01">
+    <div class="rolsi_img"></div>
+</div>
+`
 
-    `
-    <div class="rolsi_sites" id="rolsi01">
-        <div class="rolsi_img"></div>
-    </div>
-    `,
-    `
-    <div class="rolsi_sites" id="rolsi02">
-        <div class="rolsi_img"></div>
-    </div>
-    `,
-    `
-    <div class="rolsi_sites" id="rolsi03">
-        <div class="rolsi_img"></div>
-    </div>
-    `,
-    `
-    <div class="rolsi_sites">
-        <div class="rolsi_img" id="rolsi04"></div>
-    </div>
-    `,
-    `
-    <div class="rolsi_sites">
-        <div class="rolsi_img" id="rolsi05"></div>
-    </div>
-    `
-
+var rolsi_nome = [
+    `<p>Cadastro</p>`,
+    'e-comerce',
+    'Super Mario',
+    'blog'
 ]
 
-const rolsis_fundo = [
-    'midia/img/Captura de tela 2023-10-20 174632.png',
+var rolsis_desc = [
+    `<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita placeat laudantium odit sint sapiente cumque ab magni, error earum eius quia culpa, quod magnam ipsa optio amet, facere nulla quidem?</p>`,
 
-    'midia/img/Captura de tela 2023-10-20 172049.png',
+    `<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatibus expedita placeat ab? Veniam labore perspiciatis eius enim sequi? Architecto labore libero explicabo perspiciatis illo commodi<p>`,
 
-    'midia/img/Captura de tela 2023-10-20 171922.png'
+    `<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita placeat laudantium odit sint sapiente cumque ab magni, error earum eius quia culpa, quod magnam ipsa optio amet, facere nulla quidem?</p>`,
+
+    `<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatibus expedita placeat ab? Veniam labore perspiciatis eius enim sequi? Architecto labore libero explicabo perspiciatis illo commodi</p>`
 ]
 
-// criar os rolsis
+var fundos = [
+    '../midia/img/formulariop.png',
+    '../midia/img/fundo_aple.png',
+    '../midia/img/relogio01.png',
+    '../midia/img/formulariog.png'
+]
+
+// criar o rolsi
 
 function criar_rolsis() {
-
-    let i = 0
-    let nomeid = 'rolsi01'
-    let nomeid2 = 'rolsi02'
-    
-    rolagem.innerHTML += rolsis[i]
-    var id = document.getElementById(nomeid)
-    id.classList.add('um')
-
-    i ++
-    rolagem.innerHTML += rolsis[i]
-    var id2 = document.getElementById(nomeid2)
-    id2.classList.add('dois')
+    rolagem.innerHTML += rolsi
+    document.getElementById('rolsi01').classList.add('um')
 }
-
-// estilo de cada um 
 
 // parte de rolagem
 
-function roda_gigante(event){
+function esperarPor(tempo) {
+    return new Promise(resolve => {
+      setTimeout(() => {
+        resolve();
+      }, tempo);
+    });
+  }
 
-    let i = 0
-    let nomeid = 'rolsi01'
-    let nomeid2 = 'rolsi02'
-    var id = document.getElementById(nomeid)
-    var id2 = document.getElementById(nomeid2)
-    var id_chao = 200
-    let bottom = 60
-    let bott = 0
+async function transicao (event) {
 
-    if (event.deltaY > 0) {
+    var id = document.getElementById('rolsi01')
+    var rol_nome = document.getElementById('nome')
+    var rol_desc = document.getElementById('desc')
 
-        // um
-        console.log('Rolagem para baixo')
-        if (bottom <= id_chao){
-            bottom ++
-        }
-        id.style.bottom = bottom + 'px'
-        if (o2 > 0){
-            o2 = o2 - 0.1
-            if (o <= 0.9){
-                o ++
-                id2.style.opacity = o
+    if (event.deltaY > 0){
+        if(quant < 31 && quant >= 0){
+
+            id.style.backgroundImage = `url('${fundos[cor_ind]}')`
+            id.classList.add('rolsi_img')
+            rol_nome.innerHTML = rolsi_nome[cor_ind]
+            rol_desc.innerHTML = rolsis_desc[cor_ind]
+
+            if(quant <= 30){
+                quant ++
+            }
+            switch(quant){
+                case 0:
+                    cor_ind = 0
+                    id.style.display = 'none'
+                    await esperarPor(500)
+                    id.style.display = 'block'
+                    break
+                case 10:
+                    cor_ind = 1
+                    id.style.display = 'none'
+                    await esperarPor(500)
+                    id.style.display = 'block'
+                    break
+                case 20:
+                    cor_ind = 2
+                    id.style.display = 'none'
+                    await esperarPor(500)
+                    id.style.display = 'block'
+                    break
+                case 30:
+                    cor_ind = 3
+                    id.style.display = 'none'
+                    await esperarPor(500)
+                    id.style.display = 'block'
+                    break
             }
         }
-        id.style.opacity = o2
-        
-        // dois
-        bottom = 60
-        o = 0.6
-        id2.style.opacity = 0.6
-        if( o < 1){
-            o++
-        }
-        id2.style.opacity = o
-        if(bott < bottom){
-            bott ++
-        }
-        id2.style.bottom = bott + 'px'
-        
-    } else if (event.deltaY < 0) {
-        
-        // um
-        o2 = 1
-        id.style.opacity = 1
-        id.style.bottom = '60px'
 
-        // dois
-        console.log('Rolagem para cima');
-        if (o > 0.2){
-            o = o - 0.1
-        }
-        id2.style.opacity = o
-        
+    }else if (event.deltaY < 0){
+        if(quant <= 31 && quant >= 0){
 
-      }
+            id.style.backgroundImage = `url('${fundos[cor_ind]}')`
+            id.classList.add('rolsi_img')
+            rol_nome.innerHTML = rolsi_nome[cor_ind]
+
+            rol_desc.innerHTML = rolsis_desc[cor_ind]
+
+            if(quant > 0){
+                quant --
+            }
+            switch(quant){
+                case 0:
+                    cor_ind = 0
+                    id.style.display = 'none'
+                    await esperarPor(500)
+                    id.style.display = 'block'
+                    break
+                case 10:
+                    cor_ind = 1
+                    id.style.display = 'none'
+                    await esperarPor(500)
+                    id.style.display = 'block'
+                    break
+                case 20:
+                    cor_ind = 2
+                    id.style.display = 'none'
+                    await esperarPor(500)
+                    id.style.display = 'block'
+                    break
+                case 30:
+                    cor_ind = 3
+                    id.style.display = 'none'
+                    await esperarPor(500)
+                    id.style.display = 'block'
+                    break
+            }
+        }
+    }
+
 }
 
-// chamada de funcao
-
+document.addEventListener('DOMContentLoaded', () =>{
+    var id = document.getElementById('rolsi01')
+    id.style.backgroundImage = `url('${fundos[0]}')`
+    id.classList.add('rolsi_img')
+})
 criar_rolsis()
-document.body.addEventListener('wheel',roda_gigante)
+document.body.addEventListener('wheel', transicao)

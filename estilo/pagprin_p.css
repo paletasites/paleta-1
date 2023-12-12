@@ -45,7 +45,7 @@ body , html {
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 172058.png);
+    background-image: url(../midia/img/formulariog.png);
     background-size: cover;
     background-position: center;
     animation-name: subir_site1;
@@ -58,9 +58,9 @@ body , html {
     z-index: 3;
     top: 10px;
     right: 10px;
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png);
+    background-image: url(../midia/img/fundo_aple.png);
     background-size: cover;
-    background-position: center top;
+    background-position: center ;
     opacity: 0;
     animation-name: deslisar_site2;
     animation-duration: 1s;
@@ -74,7 +74,7 @@ body , html {
     z-index: 3;
     right: 5px;
     bottom: 30px;
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png);
+    background-image: url(../midia/img/fundo_aple.png);
     background-size: cover;
     background-position: bottom;
     opacity: 0;
@@ -89,9 +89,9 @@ body , html {
     height: 150px;
     z-index: 3;
     top: 30px;
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png);
+    background-image: url(../midia/img/formulariop.png);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     opacity: 0;
     animation-name: decer_site4;
     animation-duration: 1s;
@@ -105,7 +105,7 @@ body , html {
     z-index: 2;
     background-color: #e8ba12;
     bottom: 20px;
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 171922.png);
+    background-image: url(../midia/img/relogio01.png);
     background-size: cover;
     background-position: center;
     opacity: 0;
@@ -251,7 +251,7 @@ a{
 }
 
 #site_pessoa1 {
-    background: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 172049.png);
+    background: url(../midia/img/formulariop.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -262,7 +262,7 @@ a{
 }
 
 #site_pessoa2 {
-    background: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 171922.png);
+    background: url(../midia/img/fundo_aple.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -273,7 +273,7 @@ a{
 }
 
 #site_pessoa3 {
-    background: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png);
+    background: url(../midia/img/relogio_grande02.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -298,7 +298,7 @@ a{
     width: 100px;
     height: 150px;
     background-color: #ee9919;
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 174632.png);
+    background-image: url(../midia/img/fundo_aple.png);
     background-size: cover;
     background-position: center top;
     position: absolute;
@@ -316,7 +316,7 @@ a{
     width: 150px;
     height: 200px;
     background-color: #ee4719;
-    background-image: url("../midia/img/Captura\ de\ tela\ 2023-10-20\ 172058.png");
+    background-image: url("../midia/img/formulariog.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -336,7 +336,7 @@ a{
     width: 100px;
     height: 150px;
     background-color: #ee9919;
-    background-image: url(../midia/img/Captura\ de\ tela\ 2023-10-20\ 171922.png);
+    background-image: url(../midia/img/relogio01.png);
     background-size: cover;
     background-position: right;
     position: absolute;

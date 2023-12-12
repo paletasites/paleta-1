@@ -7,7 +7,7 @@ const cabecario = `
 <nav>
     <div class="contem_1">
         <a href="index.html">home</a>
-        <a href="ex_02.html">sites exemplos</a>
+        <a href="sites_ex.html">sites exemplos</a>
         <a href="sobre.html" class="ultima">sobre nos</a>
     </div>
 </nav>
@@ -21,7 +21,7 @@ const rodape = `
         <div></div>
     </section>
     <section class="infor , contem_1">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda ex nobis mollitia dicta dolore</p>
+        <p>agradecemos por ter nos visitado e que sua experincia tenha sido inovadora. faremos o melhor para você e sua empresa!</p>
     </section>
     </footer>
 
