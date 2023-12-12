@@ -56,6 +56,7 @@ html , body {
     width: 70vw;
     font-size: 1.5em;
     text-align: center;
+    opacity: 0.8;
 }
 
 .lembrete {
@@ -69,4 +70,5 @@ html , body {
     width: 90vw;
     font-size: 1.5em;
     text-align: center;
+    opacity: 0.8;
 }
