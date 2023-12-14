@@ -24,7 +24,8 @@ body , html {
 #sites_ex {
     background-color: transparent;
     width: 80vw;
-    height: 40vh;
+    max-width: 330px;
+    height: 350px;
     margin: auto;
     margin-top: 20px;
     position: relative;
@@ -124,6 +125,7 @@ body , html {
 
 .texto > p {
     width: 70vw;
+    max-width: 500px;
     font-size: 1.5em;
     text-align: center;
     opacity: 0.8;
@@ -159,7 +161,7 @@ a{
     margin-top: 100px;
     margin-bottom: 50px;
     width: 100%;
-    height: 80vh;
+    height: 700px;
     position: relative;
 }
 
@@ -173,7 +175,8 @@ a{
 }
 
 .pessoa {
-    width: 60vw;
+    width: 80vw;
+    max-width: 400px;
     height: 200px;
     background-color: rgb(252, 249, 239);
     border-radius: 30px;
@@ -283,7 +286,7 @@ a{
 /* outros sites */
 
 .vitrine {
-    width: 80vw;
+    width: 350px;
     height: 300px;
     margin: 50px 0px 0px 0px ;
     position: relative;
@@ -370,6 +373,7 @@ a{
 
 .texto_03 > p{
     width: 80vw;
+    max-width: 500px;
     font-size: 1.5em;
     text-align: center;
 }

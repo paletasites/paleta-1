@@ -24,9 +24,24 @@
     margin-top: 80px;
 }
 
+.amos {
+    width: 100%;
+    max-width: 500px;
+}
+
+.direita {
+    float: right;
+}
+
+.cemporcento {
+    width: 100%;
+    height: 40vh;
+}
+
 .img_site {
     width: 50vw;
-    height: 40vh;
+    max-width: 200px;
+    height: 35vh;
     background-color: orange;
     display: inline-block;
     margin: 0px 20px 100px 20px;
@@ -37,7 +52,7 @@
 }
 
 .info {
-    display: inline-block;
+    display: block;
     width: 35%;
     height: 40vh;
     display: flex;
@@ -59,6 +74,7 @@
     float: left;
     margin-left: 10px;
 }
+
 
 #img01 {
     background-image: url('../midia/img/formulariop.png');

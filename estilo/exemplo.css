@@ -32,7 +32,7 @@ html , body {
 }
 
 .rolsi_sites {
-    width: 45vw;
+    width: 80vw;
     height: 40vh;
     overflow: hidden;
     border-radius: 20px;
@@ -46,8 +46,8 @@ html , body {
 }
 
 .rolsi_img{
-    width: 45vw;
-    height: 40vh;
+    width: 35vw;
+    height: 45vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -63,9 +63,9 @@ html , body {
 
 .rolsi_titulo{
     position: absolute;
-    opacity: 0;
+    opacity: 1;
     top: 380px;
-    left: 290px;
+    left: 470px;
     font-size: 1.3em;
     animation-name: deslisar_titulo;
     animation-delay: 1s;
@@ -77,10 +77,9 @@ html , body {
     width: 40vw;
     position: absolute;
     top: 420px;
-    left: 280px;
+    left: 450px;
     font-size: 1.3em;
     opacity: 0.8;
-    opacity: 0;
     animation-name: deslisar_desc;
     animation-duration: 1s;
     animation-delay: 1.5s;

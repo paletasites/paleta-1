@@ -49,6 +49,7 @@ html , body {
 
 .texto_2 {
     width: 80vw;
+    max-width: 400px;
     margin: 20px 0px;
     font-size: 1.3em;
     font-weight: normal;
@@ -122,6 +123,7 @@ nav > div > a:hover {
 
 .infor > p {
     width: 80%;
+    max-width: 400px;
     font-size: 1.3em;
     margin: 20px 0px 0px 0px;  
     text-align: center; 
