@@ -6,6 +6,18 @@ html , body {
     overflow: hidden;
 }
 
+.limite_limite {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.limitar {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+}
+
 .conteudo {
     width: 100%;
     height: 80vh;
@@ -15,9 +27,8 @@ html , body {
 
 .contem_2 {
     display: block;
-    margin: 50px 0px 0px 50px;
-    width: 80%;
-    height: 90vh;
+    margin: 50px 0px 100px 50px;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -25,10 +36,12 @@ html , body {
 .contem_2 > p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
+    width: 60%;
+    max-width: 700px;
     color: black;
     line-height: 1.5em;
     opacity: 0.8;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .rolsi_sites {
@@ -47,6 +60,7 @@ html , body {
 
 .rolsi_img{
     width: 35vw;
+    max-width: 370px;
     height: 45vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,10 +77,10 @@ html , body {
 
 .rolsi_titulo{
     position: absolute;
-    opacity: 1;
-    top: 380px;
+    opacity: 0;
+    top: 20px;
     left: 470px;
-    font-size: 1.3em;
+    font-size: 2em;
     animation-name: deslisar_titulo;
     animation-delay: 1s;
     animation-duration: 1s;
@@ -74,12 +88,13 @@ html , body {
 }
 
 .rolsi_desc {
-    width: 40vw;
+    width: 30vw;
+    max-width: 300px;
     position: absolute;
-    top: 420px;
+    top: 70px;
     left: 450px;
     font-size: 1.3em;
-    opacity: 0.8;
+    opacity: 0;
     animation-name: deslisar_desc;
     animation-duration: 1s;
     animation-delay: 1.5s;
