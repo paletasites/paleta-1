@@ -23,6 +23,7 @@ html , body {
 
 .img_logo {
     width: 50vw;
+    max-width: 500px;
 }
 
 .img_logo > img {
@@ -34,6 +35,12 @@ html , body {
     display: flex;
     justify-content: center;
     margin: 50px 0px 20px 0px;
+}
+
+.texto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .texto > p {

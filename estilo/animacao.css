@@ -219,3 +219,40 @@
         left: 450px;
     }
 }
+
+@keyframes deslisar_site2_20 {
+    from {
+        opacity: 0;
+        right: -40px;
+    }
+
+    to {
+        opacity: 1;
+        right: 0px;
+    }
+}
+
+@keyframes decer_site4_20 {
+    from {
+        opacity: 0;
+        top: 10px;
+    }
+
+    to {
+        opacity: 1;
+        top: 40px;
+    }
+}
+
+@keyframes deslisar_site5_20 {
+    from {
+        opacity: 0;
+        left: -20px;
+    }
+
+    to {
+        opacity: 1;
+        left: 30px;
+    }
+}
+

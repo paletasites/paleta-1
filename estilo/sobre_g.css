@@ -1,0 +1,9 @@
+@charset "ut-f8";
+
+@media screen and (min-width: 1000px){
+        
+    .texto_2 {
+        max-width: 600px;
+    }
+    
+}

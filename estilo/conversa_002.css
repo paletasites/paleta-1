@@ -1,0 +1,13 @@
+@charset "ut-f8";
+
+@media screen and (min-width: 1000px) {
+    .texto > p{
+        max-width: 600px;
+    }
+
+    .contato > button {
+        width: 400px;
+        height: 40px;
+        font-size: 1em;
+    }
+}
