@@ -64,14 +64,14 @@ async function transicao (event) {
     var rol_desc = document.getElementById('desc')
 
     if (event.deltaY > 0){
-        if(quant < 31 && quant >= 0){
+        if(quant < 16 && quant >= 0){
 
             id.style.backgroundImage = `url('${fundos[cor_ind]}')`
             id.classList.add('rolsi_img')
             rol_nome.innerHTML = rolsi_nome[cor_ind]
             rol_desc.innerHTML = rolsis_desc[cor_ind]
 
-            if(quant <= 30){
+            if(quant <= 15){
                 quant ++
             }
             switch(quant){
@@ -81,19 +81,19 @@ async function transicao (event) {
                     await esperarPor(500)
                     id.style.display = 'block'
                     break
-                case 10:
+                case 5:
                     cor_ind = 1
                     id.style.display = 'none'
                     await esperarPor(500)
                     id.style.display = 'block'
                     break
-                case 20:
+                case 10:
                     cor_ind = 2
                     id.style.display = 'none'
                     await esperarPor(500)
                     id.style.display = 'block'
                     break
-                case 30:
+                case 15:
                     cor_ind = 3
                     id.style.display = 'none'
                     await esperarPor(500)
@@ -103,7 +103,7 @@ async function transicao (event) {
         }
 
     }else if (event.deltaY < 0){
-        if(quant <= 31 && quant >= 0){
+        if(quant <= 16 && quant >= 0){
 
             id.style.backgroundImage = `url('${fundos[cor_ind]}')`
             id.classList.add('rolsi_img')
@@ -121,19 +121,19 @@ async function transicao (event) {
                     await esperarPor(500)
                     id.style.display = 'block'
                     break
-                case 10:
+                case 5:
                     cor_ind = 1
                     id.style.display = 'none'
                     await esperarPor(500)
                     id.style.display = 'block'
                     break
-                case 20:
+                case 10:
                     cor_ind = 2
                     id.style.display = 'none'
                     await esperarPor(500)
                     id.style.display = 'block'
                     break
-                case 30:
+                case 15:
                     cor_ind = 3
                     id.style.display = 'none'
                     await esperarPor(500)
