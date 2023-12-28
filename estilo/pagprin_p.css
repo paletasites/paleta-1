@@ -294,7 +294,6 @@ a{
 .vits_site {
     border-radius: 20px;
     box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.277);
-    cursor: pointer;
 }
 
 #vits_01 {
@@ -308,11 +307,6 @@ a{
     top: 50%;
     left: 40px;
     transform: translate(0% , -50%);
-}
-
-#vits_01:hover {
-    width: 120px;
-    height: 170px;
 }
 
 #vits_02 {
@@ -330,11 +324,6 @@ a{
     z-index: 2;
 }
 
-#vits_02:hover {
-    width: 160px;
-    height: 210px;
-}
-
 #vits_03 {
     width: 100px;
     height: 150px;
@@ -346,11 +335,6 @@ a{
     top: 50%;
     right: 40px;
     transform: translate(0% , -50%);
-}
-
-#vits_03:hover {
-    width: 120px;
-    height: 170px;
 }
 
 .vits_link {

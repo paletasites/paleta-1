@@ -65,15 +65,39 @@
         left: 0px;
     }
 
+    #vits_01:hover {
+        width: 120px;
+        height: 200px;
+    }
+
     #vits_02 {
         width: 200px;
         height: 300px;
     }
 
+    #vits_02:hover {
+        width: 180px;
+        height: 280px;
+    }    
+
     #vits_03 {
         width: 120px;
         height: 220px;
         right: 0px;
+    }
+
+    #vits_03:hover {
+        width: 120px;
+        height: 200px;
+    }    
+
+    #vits {
+        position: relative;
+    }
+
+    .vits_link {
+        position: absolute;
+        bottom: -25px;
     }
 }
 
