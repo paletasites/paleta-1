@@ -1,0 +1,99 @@
+@charset "ut-f8";
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #EBEDF2;
+}
+
+.contem_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: normal;
+    font-family: 'Comfortaa', sem serifa;
+    color: #8C1C03;
+}
+
+.fundo {
+    width: 150px;
+    height: 150px;
+    background-color: #557314;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: inset 8px 6px 20px rgba(0, 0, 0, 0.285);
+    justify-content: center;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    background-image: url("cupcake.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    bottom: -25px;
+    right: -60px;
+}
+
+.lista {
+    background-color: #D92344;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.211);
+}
+
+h2 {
+    margin: 10px 0px 10px 10px;
+    font-weight: normal;
+    font-family: 'Comfortaa' , sem-serifa;
+    margin: 10px;
+    color: #BF6734;
+}
+
+.lista > h2 {
+    color: #EBEDF2;
+    margin-bottom: 0px;
+}
+
+li {
+    margin-left: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
+}
+
+.preparo {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+p {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    font-family: 'Indie Flower', cursive;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}

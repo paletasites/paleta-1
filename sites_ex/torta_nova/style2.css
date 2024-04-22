@@ -1,0 +1,39 @@
+@charset "ut-f8";
+
+@media screen and (min-width: 1200px) {
+    .esquerda {
+        display: inline-block;
+        position: absolute;
+        top: 250px;
+        left: 150px;
+    }
+    .foto {
+        width: 300px;
+        height: 300px;
+    }
+
+    .fundo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .ingre {
+        justify-content: end;
+    }
+
+    .lista {
+        width: 55vw;
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    .preparo {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contem_2 {
+        width: 80vw;
+    }
+}

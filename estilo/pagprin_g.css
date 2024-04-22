@@ -133,4 +133,21 @@
     .infor > p {
         max-width: 500px;
     }
+
+    #primeira_impresao {
+        position: relative;
+    }
+
+    #sites_ex {
+        margin: 100px 80px 0px 186px;
+        display: inline-block;
+    }
+
+    #informacao {
+        max-width: 25vw;
+        display: inline-block;
+        position: absolute;
+        top: 120px;
+        right: 150px;
+    }
 }

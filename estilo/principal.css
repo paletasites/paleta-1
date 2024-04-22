@@ -1,6 +1,8 @@
 @charset "ut-f8";
 
-@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@100 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Ubuntu+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 html , body {
     width: 100%;
@@ -10,7 +12,7 @@ html , body {
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -62,7 +64,7 @@ html , body {
     padding-bottom: 20px;
     font-size: 1.3em;
     opacity: 0.8;
-    font-family: 'Inter', sem serifa;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 nav {

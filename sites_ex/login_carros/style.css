@@ -1,0 +1,75 @@
+@charset "ut-f8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* background-image: linear-gradient(to bottom , #84AEBF , #091326); */
+    background-color: #F2F2F2;
+}
+
+main {
+    background-color: #D93B58;
+    position: relative;
+    width: 80%;
+    max-width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.291);
+}
+
+form {
+    margin-bottom: 120px;
+}
+
+.campo {
+    margin: 20px;
+}
+
+.caixa {
+    width: 200px;
+    border: 0px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    display: block;
+    margin-top: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.32);
+}
+
+*:focus {
+    outline: none;
+}
+
+img {
+    position: absolute;
+    bottom: 10px;
+    right: -40px;
+    width: 400px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.botao > input{
+    width: 150px;
+    padding: 5px;
+    border: 0px solid white;
+    border-radius: 20px;
+    background-color: #D98471;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
+    margin-top: 10px;
+}
