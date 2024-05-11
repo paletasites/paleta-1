@@ -1,0 +1,63 @@
+@charset "ut-f8";
+
+@keyframes entrar_tudo {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes entrar_lado_esquerdo {
+    from {
+        opacity: 0;
+        transform: translatex(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes entrar_lado_direito {
+    from {
+        opacity: 0;
+        transform: translatex(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatex(0px);
+    }
+}
+
+@keyframes entrar_cima {
+    from {
+        opacity: 0;
+        transform: translatey(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translatey(0px);
+    }
+}
+
+@keyframes folha_rodando {
+    from {
+        opacity: 0;
+        transform: translate(-50px,-50px);
+        transform: rotate(300deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+        transform: rotate(360deg);
+    }
+}

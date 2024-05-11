@@ -1,0 +1,382 @@
+@charset "ut-f8";
+
+@font-face {
+    font-family: "titulo01";
+    src: url(fontes/heyam/Heyam.ttf);
+}
+
+@font-face {
+    font-family: "titulo02";
+    src: url(fontes/power_punchy/Power\ Punchy.otf);
+}
+
+@font-face {
+    font-family: "texto";
+    src: url(fontes/louis_george_cafe/Louis\ George\ Cafe\ Light.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor001: #CCBF9D;
+    --cor002: #A9B782;
+    --cor003: #DFAE47;
+    --cor004: #467048;
+    --cor005: #335441;
+}
+
+html,body {
+    width: 100%;
+    height: 100vh;
+} 
+
+main {
+    background-color: #ccbf9d60;
+}
+
+.apresentacao {
+    background-color: var(--cor001);
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.contem_merda_toda {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contem_primeiro {
+    width: 400px;
+    max-width: 400px;
+    position: relative;
+}
+
+.contem_nutri{
+    width: 150px;
+    height: 200px;
+    background-color: var(--cor003);
+    overflow: hidden;
+    border-radius: 0px 60%;
+    position: relative;
+    top: 50px;
+    left: 10%;
+    box-shadow: -7px 6px 20px 0px #0000004a;
+}
+
+.contem_img_nutri {
+    width: 90%;
+    height: 90%;
+    margin: 20px 0px 0px 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.contem_img_nutri > img {
+    width: 100%;
+}
+
+.conteudo_apresentacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: -130px;
+}
+
+.contem_titulo_especial {
+    width: 50%;
+    margin: 0px 10px 0px 0px;
+    color: var(--cor005);
+}
+
+h1 {
+    width: 60%;
+    font-size: 2em;
+    font-family: "titulo02";
+}
+
+.contem_p_especial {
+    width: 50%;
+    margin: 15px 10px 0px 0px;
+}
+
+.contem_botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 0px 0px;
+}
+
+.contem_botao > button {
+    padding: 10px;
+    width: 200px;
+    background-color: var(--cor004);
+    font-size: 1.3em;
+    border-radius: 15px;
+    box-shadow: -1px 9px 10px rgba(0, 0, 0, 0.201);
+    color: black;
+    position: relative;
+    z-index: 20;
+}
+
+.onda {
+    margin: -30px 0px 0px 0px;
+}
+
+svg {
+    position: absolute;
+}
+
+#svg02{
+    left: 399px;
+}
+
+#svg03 {
+    left: 798px;
+}
+
+#svg04 {
+    left: 1197px;
+}
+
+#svg05 {
+    left: 1596px;
+}
+
+#svg06 {
+    left: 1996px;
+}
+
+#svg07 {
+    left: 2394px;
+}
+
+.contem_onda {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin: -30px 0px 0px 0px;
+}
+
+.folha {
+    position: absolute;
+    width: 100px;
+}
+
+.folha > img {
+    width: 100%;
+}
+
+#folha006 {
+    top: -60px;
+    right: 0px;
+}
+
+#folha004 {
+    bottom: -120px;
+    left: -20px;
+    z-index: 30;
+}
+
+.falar_um_pouco {
+    width: 100%;
+    margin: 150px 0px 0px 0px;
+    position: relative;
+    z-index: 2;
+}
+
+#titulo_pouco {
+    background-image: url("img/fundo_banana.jpeg");
+    color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.contem_titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 2em;
+}
+
+.contem_p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contem_p > p {
+    width: 80%;
+    text-align: center;
+}
+
+.abacaxi_cortado {
+    position: absolute;
+    bottom: 80px;
+    right: 30px;
+    height: 200px;
+    z-index: 0;
+    transform: rotate(20deg);
+    display: none;
+}
+
+.abacaxi_cortado > img {
+    height: 100%;
+}
+
+.mais_um_pouco {
+    width: 100%;
+    margin: 80px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.contem_tudo {
+    width: 90vw;
+    max-width: 400px;
+    background-color: var(--cor003);
+    border-radius: 70px 0px;
+    padding: 30px 0px 50px 0px;
+    position: relative;
+    box-shadow: 10px 20px 20px #0000002e;
+    opacity: 0;
+}
+
+#button002 {
+    margin-top: 30px;
+}
+
+#button002 > button {
+    background-color: var(--cor001);
+}
+
+#folha003 {
+    bottom: -20px;
+    left: -30px;
+    transform: rotate(309deg);
+}
+
+.contem_coisas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.coisas {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 80px 0px 0px 0px;
+}
+
+#titulo004 {
+    font-size: 1.3em;
+}
+
+.quadro {
+    width: 120px;
+    height: 200px;
+    background-color: var(--cor002);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: -5px 11px 20px #00000036;
+    /* background-image: url("img/magra.jpeg"); */
+}
+
+/* #quadro002 {
+    background-image: url("img/sude.jpeg");
+}
+
+#quadro003 {
+    background-image: url("img/comer.jpeg");
+} */
+
+.mais_texto {
+    margin: 80px 0px 0px 0px;
+    position: relative;
+    z-index: 2;
+}
+
+#titulo_color {
+    color: var(--cor001);
+}
+
+#texto_nsei {
+    width: 70%;
+    margin: 0px 0px 200px 0px;
+}
+
+.prato {
+    width: 200px;
+    position: absolute;
+    left: -120px;
+    bottom: 65%;
+    transform: translate(0,50%);
+}
+
+.prato > img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: var(--cor002);
+    padding: 80px 0px 0px 0px;
+    box-shadow: inset 0px 20px 20px #0000002b;
+}
+
+#p_diferente {
+    width: 80vw;
+    margin: 0px 0px 0px 20px;
+    justify-content: start;
+}
+
+#p_diferente > p {
+    text-align: left;
+}
+
+.contato {
+    margin: 30px 0px 0px 20px;
+}
+
+.watzap > button{
+    width: 200px;
+    padding: 8px;
+    font-size: 1.3em;
+    border-radius: 20px;
+    background-color: greenyellow;
+    margin: 0px 0px 10px 0px;
+}
+
+.email , .numero {
+    margin: 0px 0px 10px 0px;
+}
+
+@media screen and (max-height: 858px) {
+    .conteudo_apresentacao {
+        width: 90%;
+    }
+
+    .contem_nutri {
+        left: 10px;
+    }
+}
